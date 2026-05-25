@@ -1,1 +1,1 @@
-console.log("GenZ Help Website Loaded Successfully");
+console.log("GenZ Help Loaded Successfully");
