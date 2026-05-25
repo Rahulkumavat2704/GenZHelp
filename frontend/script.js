@@ -1,0 +1,1 @@
+console.log("GenZ Help Website Loaded Successfully");
