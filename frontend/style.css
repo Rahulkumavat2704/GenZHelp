@@ -808,3 +808,214 @@ footer{
 
     margin-bottom: 40px;
 }
+
+
+/* Auth Pages */
+
+.auth-container{
+
+    min-height: 100vh;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    background:
+    radial-gradient(circle at top left, #7c3aed, transparent 30%),
+    radial-gradient(circle at bottom right, #0ea5e9, transparent 30%),
+    #020617;
+}
+
+.auth-card{
+
+    width: 400px;
+
+    padding: 50px;
+
+    border-radius: 25px;
+
+    background: rgba(255,255,255,0.05);
+
+    backdrop-filter: blur(12px);
+
+    border: 1px solid rgba(255,255,255,0.08);
+
+    text-align: center;
+}
+
+.auth-card h1{
+
+    margin-bottom: 15px;
+
+    font-size: 40px;
+}
+
+.auth-card p{
+
+    color: #cbd5e1;
+
+    margin-bottom: 35px;
+}
+
+.auth-card form{
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 20px;
+}
+
+.auth-card input{
+
+    padding: 18px;
+
+    border-radius: 12px;
+
+    border: none;
+
+    background: rgba(255,255,255,0.08);
+
+    color: white;
+
+    font-size: 16px;
+
+    outline: none;
+}
+
+.auth-card span{
+
+    display: block;
+
+    margin-top: 25px;
+
+    color: #cbd5e1;
+}
+
+.auth-card a{
+
+    color: #8b5cf6;
+
+    text-decoration: none;
+}
+
+/* Dashboard */
+
+.dashboard-layout{
+
+    display: flex;
+
+    min-height: 100vh;
+}
+
+.sidebar{
+
+    width: 280px;
+
+    background: rgba(255,255,255,0.05);
+
+    backdrop-filter: blur(12px);
+
+    border-right: 1px solid rgba(255,255,255,0.08);
+
+    padding: 40px 30px;
+}
+
+.sidebar h2{
+
+    color: #38bdf8;
+
+    margin-bottom: 40px;
+}
+
+.sidebar ul{
+
+    list-style: none;
+}
+
+.sidebar li{
+
+    padding: 18px;
+
+    margin-bottom: 15px;
+
+    border-radius: 12px;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.sidebar li:hover{
+
+    background: rgba(255,255,255,0.08);
+}
+
+.dashboard-main{
+
+    flex: 1;
+
+    padding: 50px;
+}
+
+.dashboard-main h1{
+
+    font-size: 45px;
+
+    margin-bottom: 50px;
+}
+
+.dashboard-cards{
+
+    display: flex;
+
+    gap: 30px;
+
+    flex-wrap: wrap;
+}
+
+.dashboard-card{
+
+    width: 280px;
+
+    padding: 40px;
+
+    border-radius: 20px;
+
+    background: rgba(255,255,255,0.05);
+
+    backdrop-filter: blur(12px);
+
+    border: 1px solid rgba(255,255,255,0.08);
+
+    transition: 0.4s;
+}
+
+.dashboard-card:hover{
+
+    transform: translateY(-10px);
+}
+
+.dashboard-card h2{
+
+    font-size: 50px;
+
+    margin-bottom: 15px;
+
+    background: linear-gradient(
+        to right,
+        #38bdf8,
+        #8b5cf6
+    );
+
+    -webkit-background-clip: text;
+
+    -webkit-text-fill-color: transparent;
+}
+
+.dashboard-card p{
+
+    color: #cbd5e1;
+}
