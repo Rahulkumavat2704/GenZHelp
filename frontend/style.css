@@ -631,3 +631,180 @@ footer{
 
     transform: translateY(0);
 }
+/* Testimonials */
+
+.testimonials{
+
+    padding: 120px 10%;
+
+    text-align: center;
+}
+
+.testimonials h2{
+
+    font-size: 50px;
+
+    margin-bottom: 60px;
+
+    color: #38bdf8;
+}
+
+.testimonial-container{
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 30px;
+
+    flex-wrap: wrap;
+}
+
+.testimonial-card{
+
+    width: 320px;
+
+    padding: 40px;
+
+    border-radius: 20px;
+
+    background: rgba(255,255,255,0.05);
+
+    backdrop-filter: blur(12px);
+
+    border: 1px solid rgba(255,255,255,0.08);
+
+    transition: 0.4s;
+
+    cursor: pointer;
+}
+
+.testimonial-card:hover{
+
+    transform: translateY(-10px) scale(1.03);
+
+    box-shadow: 0 0 30px rgba(139,92,246,0.3);
+}
+
+.testimonial-card p{
+
+    line-height: 1.8;
+
+    color: #cbd5e1;
+
+    margin-bottom: 25px;
+
+    font-size: 18px;
+}
+
+.testimonial-card h3{
+
+    color: #8b5cf6;
+}
+
+/* FAQ */
+
+.faq{
+
+    padding: 120px 10%;
+
+    max-width: 900px;
+
+    margin: auto;
+}
+
+.faq h2{
+
+    text-align: center;
+
+    font-size: 50px;
+
+    margin-bottom: 50px;
+
+    color: #38bdf8;
+}
+
+.faq-item{
+
+    margin-bottom: 20px;
+
+    border-radius: 15px;
+
+    overflow: hidden;
+
+    background: rgba(255,255,255,0.05);
+
+    border: 1px solid rgba(255,255,255,0.08);
+}
+
+.faq-question{
+
+    width: 100%;
+
+    padding: 25px;
+
+    background: transparent;
+
+    border: none;
+
+    color: white;
+
+    font-size: 20px;
+
+    text-align: left;
+
+    cursor: pointer;
+}
+
+.faq-answer{
+
+    max-height: 0;
+
+    overflow: hidden;
+
+    transition: 0.4s ease;
+
+    padding: 0 25px;
+}
+
+.faq-answer p{
+
+    padding-bottom: 25px;
+
+    color: #cbd5e1;
+
+    line-height: 1.8;
+}/* CTA Section */
+
+.cta-section{
+
+    padding: 120px 10%;
+
+    text-align: center;
+}
+
+.cta-section h2{
+
+    font-size: 60px;
+
+    margin-bottom: 25px;
+
+    background: linear-gradient(
+        to right,
+        #38bdf8,
+        #8b5cf6
+    );
+
+    -webkit-background-clip: text;
+
+    -webkit-text-fill-color: transparent;
+}
+
+.cta-section p{
+
+    font-size: 22px;
+
+    color: #cbd5e1;
+
+    margin-bottom: 40px;
+}
