@@ -1,0 +1,6 @@
+@GenZHelpAPI_HostAddress = http://localhost:5008
+
+GET {{GenZHelpAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
