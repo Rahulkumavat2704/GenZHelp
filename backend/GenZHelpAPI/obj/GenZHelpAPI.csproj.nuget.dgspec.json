@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\projects\\GenZHelp\\Backend\\GenZHelpAPI\\GenZHelpAPI.csproj": {}
+    "C:\\projects\\GenZHelp\\backend\\GenZHelpAPI\\GenZHelpAPI.csproj": {}
   },
   "projects": {
-    "C:\\projects\\GenZHelp\\Backend\\GenZHelpAPI\\GenZHelpAPI.csproj": {
+    "C:\\projects\\GenZHelp\\backend\\GenZHelpAPI\\GenZHelpAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\projects\\GenZHelp\\Backend\\GenZHelpAPI\\GenZHelpAPI.csproj",
+        "projectUniqueName": "C:\\projects\\GenZHelp\\backend\\GenZHelpAPI\\GenZHelpAPI.csproj",
         "projectName": "GenZHelpAPI",
-        "projectPath": "C:\\projects\\GenZHelp\\Backend\\GenZHelpAPI\\GenZHelpAPI.csproj",
+        "projectPath": "C:\\projects\\GenZHelp\\backend\\GenZHelpAPI\\GenZHelpAPI.csproj",
         "packagesPath": "C:\\Users\\rahul\\.nuget\\packages\\",
-        "outputPath": "C:\\projects\\GenZHelp\\Backend\\GenZHelpAPI\\obj\\",
+        "outputPath": "C:\\projects\\GenZHelp\\backend\\GenZHelpAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -52,6 +52,10 @@
           "framework": "net10.0",
           "targetAlias": "net10.0",
           "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[10.0.8, )"

@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "vw0LFCf/djk=",
+  "dgSpecHash": "DZKmNa37t4M=",
   "success": true,
-  "projectFilePath": "C:\\projects\\GenZHelp\\Backend\\GenZHelpAPI\\GenZHelpAPI.csproj",
+  "projectFilePath": "C:\\projects\\GenZHelp\\backend\\GenZHelpAPI\\GenZHelpAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rahul\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\rahul\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
+    "C:\\Users\\rahul\\.nuget\\packages\\bcrypt.net-next\\4.2.0\\bcrypt.net-next.4.2.0.nupkg.sha512",
     "C:\\Users\\rahul\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\rahul\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\10.0.8\\microsoft.aspnetcore.authentication.jwtbearer.10.0.8.nupkg.sha512",
     "C:\\Users\\rahul\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.8\\microsoft.aspnetcore.openapi.10.0.8.nupkg.sha512",
@@ -64,9 +65,9 @@
       "code": "NU1902",
       "level": "Warning",
       "message": "Package 'Azure.Identity' 1.10.3 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-m5vv-6r4h-3vj9",
-      "projectPath": "C:\\projects\\GenZHelp\\Backend\\GenZHelpAPI\\GenZHelpAPI.csproj",
+      "projectPath": "C:\\projects\\GenZHelp\\backend\\GenZHelpAPI\\GenZHelpAPI.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\projects\\GenZHelp\\Backend\\GenZHelpAPI\\GenZHelpAPI.csproj",
+      "filePath": "C:\\projects\\GenZHelp\\backend\\GenZHelpAPI\\GenZHelpAPI.csproj",
       "libraryId": "Azure.Identity",
       "targetGraphs": [
         "net10.0"
@@ -76,9 +77,9 @@
       "code": "NU1902",
       "level": "Warning",
       "message": "Package 'Azure.Identity' 1.10.3 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-wvxc-855f-jvrv",
-      "projectPath": "C:\\projects\\GenZHelp\\Backend\\GenZHelpAPI\\GenZHelpAPI.csproj",
+      "projectPath": "C:\\projects\\GenZHelp\\backend\\GenZHelpAPI\\GenZHelpAPI.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\projects\\GenZHelp\\Backend\\GenZHelpAPI\\GenZHelpAPI.csproj",
+      "filePath": "C:\\projects\\GenZHelp\\backend\\GenZHelpAPI\\GenZHelpAPI.csproj",
       "libraryId": "Azure.Identity",
       "targetGraphs": [
         "net10.0"
@@ -88,9 +89,9 @@
       "code": "NU1902",
       "level": "Warning",
       "message": "Package 'Microsoft.Identity.Client' 4.56.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-m5vv-6r4h-3vj9",
-      "projectPath": "C:\\projects\\GenZHelp\\Backend\\GenZHelpAPI\\GenZHelpAPI.csproj",
+      "projectPath": "C:\\projects\\GenZHelp\\backend\\GenZHelpAPI\\GenZHelpAPI.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\projects\\GenZHelp\\Backend\\GenZHelpAPI\\GenZHelpAPI.csproj",
+      "filePath": "C:\\projects\\GenZHelp\\backend\\GenZHelpAPI\\GenZHelpAPI.csproj",
       "libraryId": "Microsoft.Identity.Client",
       "targetGraphs": [
         "net10.0"
@@ -100,9 +101,9 @@
       "code": "NU1901",
       "level": "Warning",
       "message": "Package 'Microsoft.Identity.Client' 4.56.0 has a known low severity vulnerability, https://github.com/advisories/GHSA-x674-v45j-fwxw",
-      "projectPath": "C:\\projects\\GenZHelp\\Backend\\GenZHelpAPI\\GenZHelpAPI.csproj",
+      "projectPath": "C:\\projects\\GenZHelp\\backend\\GenZHelpAPI\\GenZHelpAPI.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\projects\\GenZHelp\\Backend\\GenZHelpAPI\\GenZHelpAPI.csproj",
+      "filePath": "C:\\projects\\GenZHelp\\backend\\GenZHelpAPI\\GenZHelpAPI.csproj",
       "libraryId": "Microsoft.Identity.Client",
       "targetGraphs": [
         "net10.0"
