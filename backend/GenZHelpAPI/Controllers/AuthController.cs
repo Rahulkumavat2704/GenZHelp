@@ -17,5 +17,16 @@ namespace GenZHelpAPI.Controllers
         {
             _context = context;
         }
+
+        [HttpPost("register")]
+
+        public async Task<ActionResult<User>> Register(User user)
+        {
+            _context.Users.Add(user);
+
+            await _context.SaveChangesAsync();
+
+            return Ok(user);
+        }
     }
 }
