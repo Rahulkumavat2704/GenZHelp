@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GenZHelpAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0c4fb3500a59832685134ab2a1de8e2765a1925c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eacee91833d0998ef36adb0a0fb4b5a39afa27f7")]
 [assembly: System.Reflection.AssemblyProductAttribute("GenZHelpAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GenZHelpAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
