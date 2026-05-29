@@ -47,16 +47,17 @@ namespace GenZHelpAPI.Controllers
 
         // CREATE STUDENT
 
-        [HttpPost]
+       [HttpPost]
 
-        public async Task<ActionResult<Student>> CreateStudent(Student student)
-        {
-            _context.Students.Add(student);
+public async Task<ActionResult<Student>>
+PostStudent(Student student)
+{
+    _context.Students.Add(student);
 
-            await _context.SaveChangesAsync();
+    await _context.SaveChangesAsync();
 
-            return Ok(student);
-        }
+    return Ok(student);
+}
 
         // UPDATE STUDENT
 
