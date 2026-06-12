@@ -62,24 +62,27 @@ PostStudent(Student student)
         // UPDATE STUDENT
 
         [HttpPut("{id}")]
+public async Task<IActionResult> UpdateStudent(
+    int id,
+    Student updatedStudent
+)
+{
+    Console.WriteLine($"Route ID = {id}");
+    Console.WriteLine($"Body ID = {updatedStudent.Id}");
+    Console.WriteLine($"Name = {updatedStudent.Name}");
 
-        public async Task<IActionResult> UpdateStudent(
-            int id,
-            Student updatedStudent
-        )
-        {
-            if (id != updatedStudent.Id)
-            {
-                return BadRequest();
-            }
+    if (id != updatedStudent.Id)
+    {
+        return BadRequest();
+    }
 
-            _context.Entry(updatedStudent).State =
-                EntityState.Modified;
+    _context.Entry(updatedStudent).State =
+        EntityState.Modified;
 
-            await _context.SaveChangesAsync();
+    await _context.SaveChangesAsync();
 
-            return NoContent();
-        }
+    return NoContent();
+}
 
         // DELETE STUDENT
 
